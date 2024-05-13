@@ -157,7 +157,7 @@ Step 3: Send your Telegram ID From @missrose_bot
 async def account_lstarn(bot: Client, m: Message):
     if not one(m.from_user.id):
         return await m.reply_photo(
-            photo="https://telegra.ph/file/e6d2807b0d3074742fe41.jpg",
+            photo="httpsg",
             caption=paid_text,
             reply_markup=keyboard,
         )
