@@ -158,7 +158,7 @@ async def account_lstarn(bot: Client, m: Message):
     if not one(m.from_user.id):
         return await m.reply_photo(
             photo="https://graph.org/file/91172b269a8af4982616d.jpg",
-            caption=» Hello , I Am extractor Bot....\n•**How to Access this bot**??\n\n**CLICK HERE** @iMendax3 \n\nBot made by -- 𝐌𝐞𝐧𝐝𝐚𝐱™❤️,
+            caption=Hello, I Am extractor Bot....\n•**How to Access this bot**??\n\n**CLICK HERE** @iMendax3 \n\nBot made by -- 𝐌𝐞𝐧𝐝𝐚𝐱™❤️,
             reply_markup=keyboard,
         )
     await m.reply_text(start_text)
