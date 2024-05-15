@@ -147,8 +147,9 @@ paid_text = """
 • **How to Access this bot**
 
 Step 1: Click Below on Developer.
-Step 2: Go to Telegram Username
-Step 3: Send your Telegram ID From @missrose_bot
+Step 2: Buy a Plan from 𝐌𝐞𝐧𝐝𝐚𝐱™❤️ Bro
+Step 3: Go to Telegram Username
+Step 4: Send your Telegram ID
 """
 
 
