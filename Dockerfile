@@ -20,4 +20,4 @@ RUN pip install --no-cache-dir --upgrade pip setuptools
 RUN pip install --no-cache-dir --requirement requirements.txt
 
 # Command to run your application
-CMD ["python", "main.py"]  # or ["python3", "main.py"] if using python3
+CMD ["python3", "main.py"]  # Ensure this is your intended entry point
