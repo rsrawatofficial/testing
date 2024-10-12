@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-# Install necessary packages, including the specific Python version and development headers
+# Install necessary packages, including the Python development headers
 RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends gcc libffi-dev musl-dev ffmpeg aria2 python3-pip python3.12 python3.12-dev libssl-dev build-essential \
     && apt-get clean \
