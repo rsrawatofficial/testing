@@ -1,6 +1,5 @@
 async-lru==2.0.2
 certifi==2023.5.7
-charset-normalizer==3.1.0
 idna==3.4
 mutagen==1.46.0
 pyaes==1.6.1
@@ -16,7 +15,7 @@ urllib3==2.0.3
 websockets==11.0.3
 yt-dlp==2023.6.22
 motor
-aiohttp==3.8.1  # Adjust version if necessary
+aiohttp==3.8.1  # You can keep this or adjust to 3.8.5 as needed
 aiofiles
 pytz
 umongo==3.1.0
