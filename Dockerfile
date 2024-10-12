@@ -1,14 +1,13 @@
-FROM python:3.12-slim
+FROM python:3.12-slim  # This image includes Python and necessary headers
 
 # Install system dependencies
-RUN apt-get update -y && apt-get upgrade -y \
-    && apt-get install -y --no-install-recommends \
-       gcc \
-       libffi-dev \
-       libssl-dev \
-       build-essential \
-       ffmpeg \
-       aria2 \
+RUN apt-get update -y && apt-get install -y --no-install-recommends \
+    gcc \
+    libffi-dev \
+    libssl-dev \
+    build-essential \
+    ffmpeg \
+    aria2 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
