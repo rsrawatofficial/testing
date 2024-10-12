@@ -8,28 +8,28 @@
         "pyrogram"
     ],
     "repository": "https://github.com/mohitbooraget/Saverestricted",
-    "success_url": "https://t.me/mendaxfree",
+    "success_url": "https://t.me/LuciferBanker",
     "stack": "container",
     "env": {
         "API_ID": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
-            "value": "23291931"
+            "value": "20736921"
         },
         "API_HASH": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
-            "value": "4b11dd648188731fb7c9bc8083e8791c"
+            "value": "42b34442e52dc3e07b3e0783389be8cb"
         },
         "BOT_TOKEN": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
-            "value": "6821309649:AAHdY0yuWpFJdgk7p6PE3OSR_McGv3W8oWo"
+            "value": "8015663864:AAGLRoTMXkj9Ndq4PL7oKLo0AtaYT68rxCM"
         },
         "OWNER_ID": {
             "description": "𝑼𝒔𝒆𝒓 𝑰𝑫 𝑶𝒇 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
-            "value": "6594402123"
+            "value": "1366730834"
         },
         "SUDO_USERS": {
             "description": "𝑺𝒖𝒅𝒐 𝑰𝑫'𝒔 (𝒀𝒐𝒖 𝑪𝒂𝒏 𝑨𝒅𝒅 𝑴𝒖𝒍𝒕𝒊𝒑𝒍𝒆 𝑩𝒚 𝑮𝒊𝒗𝒊𝒏𝒈 𝑺𝒑𝒂𝒄𝒆)",
-            "value": "5186250641 6594402123 5331045824 5935537622 5724356290 6436809802 7191218144"
+            "value": "1366730834"
         }
     },
     "addons": [],
