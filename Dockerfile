@@ -12,8 +12,10 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
-COPY . /app/
 WORKDIR /app/
+
+# Copy your application files
+COPY . .
 
 # Upgrade pip and install requirements
 RUN pip install --no-cache-dir --upgrade pip setuptools
