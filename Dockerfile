@@ -1,13 +1,14 @@
-FROM ubuntu:22.04  # Specify a stable Ubuntu version
+FROM ubuntu:22.04
 
-# Install system dependencies
+# Install system dependencies and Python development headers
 RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends \
        gcc \
        libffi-dev \
-       libssl-dev \  # Install libssl-dev for aiohttp
+       libssl-dev \
        python3-pip \
        python3-dev \
+       python3.12-dev \  # Install the development package for Python 3.12
        build-essential \
        ffmpeg \
        aria2 \
