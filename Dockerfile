@@ -1,7 +1,10 @@
-FROM python:3.12-slim  # This image includes Python and necessary headers
+FROM ubuntu:22.04
 
-# Install system dependencies
+# Install system dependencies and Python
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
+    python3.12 \
+    python3.12-dev \
+    python3-pip \
     gcc \
     libffi-dev \
     libssl-dev \
@@ -16,8 +19,8 @@ COPY . /app/
 WORKDIR /app/
 
 # Upgrade pip and install requirements
-RUN pip install --no-cache-dir --upgrade pip setuptools
-RUN pip install --no-cache-dir --requirement requirements.txt
+RUN pip3 install --no-cache-dir --upgrade pip setuptools
+RUN pip3 install --no-cache-dir --requirement requirements.txt
 
 # Command to run your application
-CMD ["python", "main.py"]
+CMD ["python3", "main.py"]
