@@ -1,4 +1,4 @@
-Pyrogram==2.0.106
+pyrogram==2.0.106
 tgcrypto==1.2.5
 requests==2.31.0
 pyromod==1.5
@@ -18,8 +18,6 @@ aiohttp==3.8.4
 aiofiles
 yt-dlp==2023.6.22
 pycryptodome==3.18.0
-PySocks==1.7.1
-websockets==11.0.3
 psutil
 async-lru==2.0.2
 helper
